@@ -1,94 +1,10 @@
 var data=[]
 var i=1;
-// var tablegroup=`<tbody class="table-body">
-// <tr>
-//   <td>
-//       <input class="input-name" type="text">
-//       <p class="text-input-name"></p>
-//   </td>
-//   <td>
-//       <input class="input-surname" type="text">
-//       <p class="text-input-surname"></p>
-//   </td>
-//   <td>
-//       <button type="button" class="Submitbtn" onclick="return updateitem();" ><i class="fas fa-plus"></i></button>
-//       <button type="button"><i class="fas fa-minus"></i></button>
-//   </td>
-// </tr>
-// </tbody>
-// `
+
 
 var formgr=document.querySelector(".table")
 
         
-
-// // function changestat(){
-    
-// //         document.querySelector(".input-name").style.display="none"
-// //         document.querySelector(".input-surname").style.display="non"
-// //         document.querySelector(".input-name").style.display="none"
-// //         document.querySelector(".input-surname").style.display="none"
-        
-// //     }
-
-
-
-//     submitbtn=document.querySelector('.Submitbtn')
-    
-//     var txtsurname=document.querySelector(".text-input-surname")
-//     var txtname=document.querySelector(".text-input-name")
-//     var name=document.querySelector(".input-name") 
-//     var surname=document.querySelector(".input-surname")
-//     var state=true
-//     // name.style.display="block"
-//     // surname.style.display="block"
-// function change(){
-//     name.style.display="none"
-//     surname.style.display="none"
-// }
-
-
-
-//         submitbtn.addEventListener("click", function(){
-        
-//         if(change()==true){
-//             name.style.display="block"
-//             surname.style.display="block"
-//         }else{
-//             name.style.display="block"
-//             surname.style.display="block"
-//         }
-//         })
-        
-        
-        
- // submitbtn=document.querySelector('.Submitbtn')
-// submitbtn.addEventListener("click", function(){
-//     var txtsurname=document.querySelector(".text-input-surname")
-//     var txtname=document.querySelector(".text-input-name")
-//     var name=document.querySelector(".input-name") 
-//     var surname=document.querySelector(".input-surname")
-//     var state=true
-//     name.style.display="block"
-//     surname.style.display="block"
-//     submitbtn.addEventListener("click", function(){
-//         if(state){
-//             name.style.display="none"
-//             surname.style.display="none"
-//             state=false
-//         }else{
-//             name.style.display="block"
-//             surname.style.display="block"
-//         }
-//         txtsurname.innerHTML=surname.value
-//         txtname.innerHTML=name.value
-//     })
-//     return true;
-// })
-
-
-
-
 
 function removeItem(el){
   var element = el.parentElement.parentElement;
